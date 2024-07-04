@@ -1,0 +1,53 @@
+.about-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('/images/sunao 1.jpeg') ;
+    width: 100%;
+    height: 100vh;
+    padding: 0 2rem;
+    gap: 2rem;
+}
+
+.two-items{
+    display: flex;
+    flex-direction: row;
+    gap: 4.5rem;
+    justify-content: center;
+}
+
+.about-title{
+    font-size: 4rem;
+    color: #fff;
+    font-family: "Satista";
+    text-shadow: 0 2px 10px rgb(109, 185, 239);
+    animation: glow 1s ease-in-out infinite alternate;
+    text-align: center;
+    display: flex;
+  }
+  
+  @-webkit-keyframes glow{
+    from{
+        text-shadow: 0 0 10px #D2E0FB, 0 0 20px #D2E0FB, 0 0 30px blue, 0 0 40px blue, 0 0 50px blue 0 0 60px blue, 0 0 70px blue;
+    }
+    to {
+        text-shadow: 0 0 20px #D2E0FB, 0 0 30px #95bfe0, 0 0 40px #95bfe0, 0 0 50px #95bfe0, 0 0 60px #95bfe0, 0 0 70px #95bfe0, 0 0 80px #95bfe0;
+    }
+  }
+
+.about-text{
+    font-size: 15px;
+    font-weight: 300;
+    color: black;
+}
+
+.about-parent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    text-align: justify;
+    max-width: 30%;
+}

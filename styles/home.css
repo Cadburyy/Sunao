@@ -1,0 +1,25 @@
+.home-container{
+    width: 100vw;
+    height: 100vh;
+    padding: 5rem;
+    font-size: 8rem;
+}
+
+.home-img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 1.5rem;
+}
+
+.home-title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Satista";
+    width: 100vw;
+    text-align: center;
+    color: #fdaa48;
+    mix-blend-mode: hard-light;
+}

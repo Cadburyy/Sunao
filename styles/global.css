@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 300vh;
+    background-color: var(--primary-color);
+    color: #fdaa48;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+footer{
+    background-color: var(--secondary-color);
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+    line-height: 1.5;
+    display: flex;
+    justify-content: center;
+    font-family: "Satista";
+    font-size: 16px;
+    margin-top: 4rem;
+}
+
+:root{
+    --primary-color:black;
+    --secondary-color:#95bfe0;
+}
+
+.dark-theme{
+    --primary-color:#2E4374;
+    --secondary-color:#192655;
+}
+
